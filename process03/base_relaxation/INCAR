@@ -1,0 +1,20 @@
+ICHARGE = 2 
+PREC    = Accurate 
+ISIF = 3 
+IBRION = 2
+EDIFF   = 1e-5
+EDIFFG = -0.000002  #forces smaller 0.02 A/eV
+NSW = 200   # 100 ionic steps
+NELM    = 100
+ENCUT   = 500
+
+ISMEAR = 1
+SIGMA  = 0.1
+
+ISYM = 1
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+NCORE = 4
+LMAXMIX = 4
+
+
