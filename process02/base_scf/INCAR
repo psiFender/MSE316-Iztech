@@ -1,0 +1,10 @@
+SYSTEM  = Graphene
+ICHARGE = 2 
+PREC    = Accurate 
+EDIFF   = 1e-6
+IBRION  = -1     # no ionic movement !
+NSW = 0   # no ionic movement !
+ENCUT   = 500
+
+
+

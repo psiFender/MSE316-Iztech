@@ -1,0 +1,17 @@
+SYSTEM = Graphene
+
+
+
+ISTART  = 0  
+ICHARGE = 11
+PREC    = High 
+EDIFF   = 1e-5
+NELM    = 100
+
+
+IBRION  = -1
+ENCUT   = 500
+
+LREAL   = .FALSE.
+
+
