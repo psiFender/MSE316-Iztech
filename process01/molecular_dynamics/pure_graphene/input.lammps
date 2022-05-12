@@ -1,0 +1,22 @@
+#input file for graphene first energy minimization trial
+units metal
+dimension 2
+processors * * * 
+boundary p p p
+
+# read data
+atom_modify map yes
+atom_style charge
+read_data grap.data
+
+pair_style tersoff
+pair_coeff * * opt_SiC.tersoff  C 
+
+
+#initial minimization
+dump     mydmp all atom 1 dump.lammpstrj
+neigh_modify    every 1 delay 5 check yes
+
+thermo		10
+minimize	0.0 1.0e-5 100000 1000000 
+

@@ -1,0 +1,13 @@
+SYSTEM  = Graphene
+ICHARGE = 2 
+PREC    = High 
+EDIFF   = 1e-5
+NELM    = 100
+IBRION  = 2     # use conjugate gradient algorithm
+ISIF   = 3    # relax both cell and ions
+NSW = 100   # 100 ionic steps
+EDIFFG = -0.02  #forces smaller 0.02 A/eV
+ENCUT   = 500
+
+
+
